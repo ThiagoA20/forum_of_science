@@ -1,3 +1,3 @@
 # forum_of_science
 
-<img src="forum">
+<img src="forum.png">
