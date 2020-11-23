@@ -6,7 +6,11 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+
 /* Menu bar style */
+
+
 .max-width{
     max-width: 1300px;
     padding: 0 150px;
@@ -59,7 +63,10 @@
     color: #fff5d0;
 }
 
+
 /* Home section style */
+
+
 .home{
     display: flex;
     background: #0f222d;
@@ -152,7 +159,7 @@
 
 .home .form .inpt .traco{
     position: relative;
-    top: 60px;
+    top: 70px;
     left: 65px;
     font-size: 18px;
     color: black;
@@ -200,5 +207,136 @@
     width: 600px;
     top: 100px;
     left: 150px;
+    position: relative;
+    Outline: none;
+}
+
+
+/* Register */
+
+
+.register{
+    display: flex;
+    background: #0f222d;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+}
+
+.register .form{
+    width: 500px;
+    height: 490px;
+    position: relative;
+    top: 17%;
+    left: 35%;
+    background-color: #C4C4C4;
+    border-radius: 31px;
+    box-shadow: inset 0 0 5px #000000;
+}
+
+.register .form .inpt{
+    display: grid;
+}
+
+.register .form .inpt .sign-in-label{
+    position: relative;
+    top: 20px;
+    left: 170px;
+    font-size: 23px;
+    color: black;
+}
+
+.register .form .inpt img{
+    height: 50px;
+    top: 35px;
+    left: 120px;
+    position: relative;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.register .form .inpt .name{
+    border-radius: 14px;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+    background-color: #959494;
+    margin-top: 0px;
+    box-shadow: inset 1px 0.5px 1px #000000;
+    Outline: none;
+}
+
+.register .form .inpt .password{
+    border-radius: 14px;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+    background-color: #959494;
+    margin-top: 20px;
+    box-shadow: inset 1px 0.5px 1px #000000;
+    Outline: none;
+}
+
+.register .form .inpt .email{
+    border-radius: 14px;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+    background-color: #959494;
+    margin-top: 20px;
+    box-shadow: inset 1px 0.5px 1px #000000;
+    Outline: none;
+}
+
+.register .form .inpt .register-button{
+    border-radius: 14px;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+    background-color: #FF8A00;
+    margin-top: 20px;
+    font-size: 18px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 0.5px 2.3px 5px 0px #000000;
+    Outline: none;
+}
+
+.register .form .inpt .pass{
+    position: relative;
+    top: 70px;
+    left: 190px;
+    font-size: 18px;
+    color: black;
+}
+
+.register .form .inpt .sign-up-label{
+    position: relative;
+    top: 80px;
+    left: 135px;
+    font-size: 18px;
+    color: black;
+}
+
+.register .form .inpt .Login{
+    position: relative;
+    top: 60px;
+    left: 330px;
+    font-size: 18px;
+}
+
+::placeholder{
+    color: black;
+    opacity: 1;
+    font-size: 18px;
+    left: 20px;
     position: relative;
 }
